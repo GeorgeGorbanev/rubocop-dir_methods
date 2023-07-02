@@ -2,6 +2,7 @@ AllCops:
   TargetRubyVersion: 2.7
   Exclude:
     - "spec/dummy_app/**/*"
+    - "vendor/**/*"
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
