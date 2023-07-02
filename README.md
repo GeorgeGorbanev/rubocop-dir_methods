@@ -1,3 +1,6 @@
+[![Ruby](https://github.com/GeorgeGorbanev/rubocop-dir_methods/actions/workflows/ruby.yml/badge.svg)](https://github.com/GeorgeGorbanev/rubocop-dir_methods/actions/workflows/ruby.yml)
+[![Gem Version](https://badge.fury.io/rb/rubocop-dir_methods.svg)](https://badge.fury.io/rb/rubocop-dir_methods)
+
 # Rubocop::DirMethods
 
 This gem is a tool designed to extend the functionality of RuboCop. It provides single RuboCop/Cop with capability to define and enforce custom naming conventions for public methods within specific directories in your Ruby projects. With this gem, you can maintain consistent coding practices and preserve the integrity of your project's codebase.
