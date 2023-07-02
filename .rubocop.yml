@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - "spec/dummy_app/**/*"
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/WordArray:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - "bin/console"
+
+Naming/FileName:
+  Exclude:
+    - "lib/rubocop-dir_methods.rb"
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+
